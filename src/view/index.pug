@@ -1,0 +1,111 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Cowpen - Criação de conteúdo
+		link(rel="stylesheet", href="css/home.css")
+	body
+		#introBanner
+			h1 cowpen
+			.divider
+			h2 Criação de conteúdo
+			a(href="#", title="Conheça")#know Conheça
+		.navbar#mainNav
+			ul
+				li
+					a(href="#", title="Sobre")#toAbout Sobre
+				li
+					a(href="#", title="Nosso time")#toTeam Time
+				li
+					a(href="#", title="Serviços")#toServices Serviços
+				li
+					a(href="#", title="Trabalhos")#toWorks Trabalhos
+				li
+					a(href="#", title="Contato")#toContact Contato
+		section#about.container
+			h2 Sobre
+			p paraphonic intestineness biaxal monophthongal Glyceria sirgang crackiness flavor untechnical Judaization contravene overburningly tutty unfoxy knotlike monopathy transliterate psychasthenic ergotin Libytheinae nursehound isochronal pyromeconic updraw
+			.desc
+				.item 
+					.title História
+					p deportment pestful tottery antithermic Baconist muscologic porule saturant pellucidness foreign tormenta unambiguity satisfyingness clough inpolyhedron jihad Lepismidae hydrozoic impendence lemonlike naphthalidine strikingness vaticinator porencephalus
+				.item
+					.title Missão
+					p chirk gastroenterologist antechurch sterling Marmota membranously supracondylar inquietness manuductory azoformic telegonous phyllocladous Blephillia pointfulness ardella flaxtail bacciform nonvisual pomiform smatteringly enmity cotingoid loyalist worserment
+				.item
+					.title Visão
+					p Hebraistical diathesic Citigradae mummick drago cooee awning unaspirated pericyclone leptomeningitis Dicynodon carburant unsalvaged miterwort hyperflexion correlatively semicupola Geoglossaceae internecine lipogrammatism forecited coneighboring Madonnahood smallclothes
+				.item
+					.title Valores
+					p coxofemoral aratory antiepicenter hastati donnered wand sailorly Leskea decumary logistic poetaster tetraboric nomenclatory impatiency moldiness nontraditional surgically operculigerous ambulate paneless sedimentarily windrow undistorting coleur
+		section#team.container
+			h2 Nosso time
+			p spoonyism bituminoid nondexterous sylphidine lightful planeta Ithomiinae Olax greedygut cataract longear awrong antiprotease direction cranked columbin ganglander upcome jointer veneficness lenvoy outrightly tooling chromotype
+			.desc
+				.item
+					img(src="http://placehold.it/220x220", alt="team").img-responsive
+					.title Madelaine Dimitriou
+					.job Diretora
+				.item
+					img(src="http://placehold.it/220x220", alt="team").img-responsive
+					.title Cyndy Waltemath
+					.job Designer
+				.item
+					img(src="http://placehold.it/220x220", alt="team").img-responsive
+					.title Trina Wallin
+					.job Fotógrafa
+				.item
+					img(src="http://placehold.it/220x220", alt="team").img-responsive
+					.title Eldon Burtenshaw
+					.job Redator
+		.paintWhite
+			section#services.container
+				h2 Serviços
+				p righteously Ausonian sixte codpitchings Seekerism dressily impositional uncombustible continuately paruria fought subatom unofficerlike gazettal synesis Nabal receptibility sproutland timar draine poplin skyrockety radialization Germanizer
+				.desc
+					.item
+						.title Banners
+						p Pindarist joom cassican unenlivening hopi Anatoly drightin focaloid dewbeam laparothoracoscopy Nephropsidae sorediform folliculate wifehood barken ovatoacuminate polybranch molestation allalinite lineolate piddler miscount Sadducaic woodgeld
+					.item
+						.title Diagramação
+						p unmajestic biguanide solver churl revirescence howish sejunctly hyperdimensional mopingly fulcrumage constrainer tetrasporangium powwow preantiseptic hamous Loasaceae pampsychism marketable Trinitarianism ichneumoned curledness forechoose Laserpitium Iacchic
+					.item
+						.title Fotografias
+						p concert explicable hauerite punitory sarcogenous maceman yore Hesiodic stachydrin diffidation unpolemical precognize parapodial ridgeway toughen heartthrob downlie erythrasma acervuline apioidal Iowan gooseherd presupplication plebification
+		section#works.container
+			h2 Trabalhos
+			.desc
+				-var i = 0;
+				while i < 8
+					.item
+						img(src="http://placehold.it/220x220", alt="trabalho").img-responsive
+					-i++
+		.paintWhite
+			section#contact.container
+				h2 Contato
+				form(action="/", method="POST", onsubmit="return false;")
+					.identify
+						.form-group
+							label(for="name") Nome
+							input(type="text")#name.form-control
+						.form-group
+							label(for="email") E-mail
+							input(type="email")#email.form-control
+					.form-group
+						label(for="msg") Mensagem
+						textarea#msg.form-control
+					.form-group
+						button(type="submit").btn.btn-primary.pull-right Enviar 
+		footer
+			.container
+				#info
+					#address Rua das nações, 130, Bairro alto - SP
+					#phone (11) 9 9999-9999
+				.pull-right
+					a(href="http://silvalexandre.com", target="_blank", title="Feito com <3 por Alexandre Silva") Feito com &lt;3 
+			.darken
+				.container
+					#copy Cowpen &copy; Todos os direitos reservados - 2017
+		script(src="js/app.js")
